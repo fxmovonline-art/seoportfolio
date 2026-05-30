@@ -1,6 +1,8 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
-
+import picture1 from '../assets/Picture1.jpg';
+import picture2 from '../assets/Picture2.jpg';
+import picture3 from '../assets/Picture3.png';
 interface Project {
   number: string;
   title: string;
@@ -18,7 +20,7 @@ const CompletedProjects = () => {
       description:
         'Deployed high-authority Cloud Stacking networks and engineered local business Schema Markup (JSON-LD) and executed an advanced link-building campaign to build high-quality backlinks and launched an optimized blog strategy. ',
       tags: ['SEO', 'Technical Audit', 'Analytics'],
-      image: 'src/assets/Picture1.jpg',
+      image: picture1,
       link: 'https://texaswindows.com/',
     },
     {
@@ -27,7 +29,7 @@ const CompletedProjects = () => {
       description:
         'Generated high-authority backlinks through off-page SEO campaigns to consistently boost domain trust flow and conducted competitor keyword research to architect an optimized blog content strategy that drives targeted organic traffic.',
       tags: ['Local SEO', 'Schema', 'Content'],
-      image: 'src/assets/Picture2.jpg',
+      image: picture2,
       link: 'https://jmrblindsinc.com/',
     },
     {
@@ -36,7 +38,7 @@ const CompletedProjects = () => {
       description:
         'Engineered specialized healthcare local business Schema markups to capture highly targeted local search intent and audited the domain structure using Google Search Console to eliminate indexing errors, loops, and duplicate content flags.',
       tags: ['Local SEO on 4 Locations', 'Blog', 'High DA Backlinks'],
-      image: 'src/assets/Picture3.png',
+      image: picture3,
       link: 'https://www.valleymedicalweightloss.com/ ',
     },
   ];
